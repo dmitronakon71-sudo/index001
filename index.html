@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Текстове серце (горизонтальне)</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            position: relative;
+            width: 600px;
+            height: 600px;
+        }
+
+        .love-word {
+            position: absolute;
+            color: #ea80b0;
+            font-size: 1.2rem;
+            white-space: nowrap;
+            text-shadow: 0 0 10px #fff;
+            letter-spacing: 1px;
+            font-weight: bold;
+            
+            /* Визначаємо шлях серця */
+            offset-path: path("M300,500 C100,350,100,150,300,250 C500,150,500,350,300,500 Z");
+            
+            /* КЛЮЧОВИЙ МОМЕНТ: забороняємо обертання */
+            offset-rotate: -20deg; 
+            
+            animation: move-around 15s linear infinite;
+            animation-delay: calc(var(--i) * 0.3s);
+        }
+
+        @keyframes move-around {
+            from { offset-distance: 0%; }
+            to { offset-distance: 100%; }
+        }
+
+        /* Додаємо затримку для кожної фрази, щоб вони йшли одна за одною */
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="love-word" style="--i: 1">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 2">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 3">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 4">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 5">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 6">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 7">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 8">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 9">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 10">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 11">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 12">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 13">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 14">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 15">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 16">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 17">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 18">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 19">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 20">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 21">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 22">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 23">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 24">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 25">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 26">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 27">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 28">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 29">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 30">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 31">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 32">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 33">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 34">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 35">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 36">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 37">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 38">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 39">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 40">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 41">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 42">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 43">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 44">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 45">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 46">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 47">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 48">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 49">Я тебе кохаю!</div>
+        <div class="love-word" style="--i: 50">Я тебе кохаю!</div>
+    </div>
+
+</body>
+</html>
